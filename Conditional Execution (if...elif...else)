@@ -1,0 +1,122 @@
+Workshop week 5 7/3/19
+
+# tempConvertWarning.py
+# A temperature conversion program using an if structure
+# to output a weather warning
+# written by D.H.,December 2,2004
+
+print &quot;This program will ask you to input the temperature in degrees Fahrenheit&quot;
+print &quot;then output the equivalent temperature in degrees Centigrade.&quot;
+print &quot;The program will issue appropriate weather warnings for extreme&quot;
+print &quot;temperatures.&quot;
+print
+
+fahrenheit = input (&quot;Enter the temperature in degrees Fahrenheit: &quot;)
+centigrade = (fahrenheit - 32)* 5/9.0
+print &quot;The equivalent temperature in degrees Centigrade is %0.0f&quot; % centigrade
+print
+
+F5
+# check if weather warning needed
+if centigrade &lt;= 0:
+print &quot;It&#39;s freezing. Best to wear a thick coat today.&quot;
+print &quot;Have a pleasant day&quot;
+
+Python 2.7.6 (default, Nov 10 2013, 19:24:24) [MSC v.1500 64 bit (AMD64)] on win32
+Type &quot;copyright&quot;, &quot;credits&quot; or &quot;license()&quot; for more information.
+&gt;&gt;&gt; ================================ RESTART
+================================
+&gt;&gt;&gt;
+This program will ask you to input the temperature in degrees Fahrenheit
+then output the equivalent temperature in degrees Centigrade.
+The program will issue appropriate weather warnings for extreme
+temperatures.
+
+Enter the temperature in degrees Fahrenheit: 50
+The equivalent temperature in degrees Centigrade is 10
+Have a pleasant day
+&gt;&gt;&gt;
+&gt;&gt;&gt; ================================ RESTART
+================================
+&gt;&gt;&gt;
+This program will ask you to input the temperature in degrees Fahrenheit
+then output the equivalent temperature in degrees Centigrade.
+The program will issue appropriate weather warnings for extreme
+temperatures.
+Enter the temperature in degrees Fahrenheit: 20
+The equivalent temperature in degrees Centigrade is -7
+It&#39;s freezing. Best to wear a thick coat today.
+Have a pleasant day
+&gt;&gt;&gt;
+
+Exercise 4_1
+
+# check if weather warning needed
+if centigrade &lt;= 0:
+print &quot;It&#39;s freezing. Best to wear a thick coat today.&quot;
+print &quot;or maybe you should stay in bed&quot;
+else:
+print &quot;There are no weather warnings today.&quot;
+print &quot;Have a pleasant day&quot;
+
+F5
+
+&gt;&gt;&gt; ================================ RESTART
+================================
+&gt;&gt;&gt;
+This program will ask you to input the temperature in degrees Fahrenheit
+then output the equivalent temperature in degrees Centigrade.
+The program will issue appropriate weather warnings for extreme
+temperatures.
+
+Enter the temperature in degrees Fahrenheit: 60
+
+The equivalent temperature in degrees Centigrade is 16
+
+There are no weather warnings today.
+Have a pleasant day
+&gt;&gt;&gt; ================================ RESTART
+================================
+&gt;&gt;&gt;
+This program will ask you to input the temperature in degrees Fahrenheit
+then output the equivalent temperature in degrees Centigrade.
+The program will issue appropriate weather warnings for extreme
+temperatures.
+
+Enter the temperature in degrees Fahrenheit: 20
+The equivalent temperature in degrees Centigrade is -7
+
+It&#39;s freezing. Best to wear a thick coat today.
+or maybe you should stay in bed
+Have a pleasant day
+&gt;&gt;&gt;
+
+4.2
+
+Adding a statement to the else block that will output
+# check if weather warning needed
+
+if centigrade &lt;= 0:
+
+print &quot;It&#39;s freezing. Best to wear a thick coat today.&quot;
+print &quot;or maybe you should stay in bed&quot;
+else:
+
+print &quot;There are no weather warnings today.&quot;
+print &quot;check again tomorrow&quot;
+
+F5
+
+This program will ask you to input the temperature in degrees Fahrenheit
+then output the equivalent temperature in degrees Centigrade.
+The program will issue appropriate weather warnings for extreme
+temperatures.
+
+Enter the temperature in degrees Fahrenheit: 20
+The equivalent temperature in degrees Centigrade is -7
+
+It&#39;s freezing. Best to wear a thick coat today.
+or maybe you should stay in bed
+check again tomorrow
+
+Bookmark page 52
